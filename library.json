@@ -1,0 +1,39 @@
+{
+    "name": "simple-homie-iot-ir",
+    "version": "0.0.1",
+    "keywords": "iot, home, automation, mqtt, esp8266, async, sensor, ir, 433Mhz",
+    "description": "Simple wrapper around homie-iot esp library",
+    "homepage": "https://github.com/swesteme/simple-homie-iot-ir/",
+    "license": "MIT",
+    "authors": {
+        "name": "Sebastian Westemeyer",
+        "maintainer": true
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/swesteme/simple-homie-iot-ir.git",
+        "branch": "master"
+    },
+    "frameworks": "arduino",
+    "platforms": [
+        "espressif8266",
+        "espressif32"
+    ],
+    "dependencies": [
+        {
+            "name": "Simple Homie IOT wrapper",
+            "version": "^0.0.1"
+        },
+        {
+            "name": "IRremoteESP8266",
+            "version": "^2.7.6"
+        }
+    ],
+    "export": {
+        "include": [
+            "LICENSE",
+            "src/*",
+            "examples/*"
+        ]
+    }
+}
